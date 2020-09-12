@@ -21,7 +21,6 @@ public class ProductController {
     }
 
     public void start() {
-        System.out.println("Claro que si campeon");
         this.productList = new ArrayList<>();
         this.adapter = new ProductListAdapter(this.fragment.getContext(), this, this.productList);
         this.fragment.setListAdapter(this.adapter);

@@ -2,4 +2,6 @@
     <string name="app_name">Softitlan Store</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_title">titulo</string>
+    <string name="str_salePrice">Precio de venta</string>
 </resources>

@@ -10,8 +10,6 @@ import androidx.fragment.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-
 import com.softitlan.store.R;
 import com.softitlan.store.controller.ProductController;
 
@@ -77,4 +75,5 @@ public class ProductList extends ListFragment {
         super.onViewCreated(view, savedInstanceState);
         this.controller.start();
     }
+
 }
